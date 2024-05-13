@@ -43,7 +43,7 @@ services:
     environment:
         ETHEREUM_JSONRPC_HTTP_URL: http://10.10.169.11:8545/
         ETHEREUM_JSONRPC_TRACE_URL: http://10.10.169.11:8545/
-        ETHEREUM_JSONRPC_WS_URL: ws://10.10.169.11:8545/
+        ETHEREUM_JSONRPC_WS_URL: ws://10.10.169.11:8546/
         CHAIN_ID: 'supernova_74506-1'
 
   visualizer:
